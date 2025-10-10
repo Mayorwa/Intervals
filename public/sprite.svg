@@ -1,0 +1,10 @@
+<svg class="icon" xmlns="http://www.w3.org/2000/svg">
+    <g id="icon-timer" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+        <path d="M15 11H17V20H15zM13 2H19V4H13z"/>
+        <path d="M28,9,26.58,7.59,24.33,9.84a10.94,10.94,0,1,0,1.18,1.65ZM16,26a9,9,0,1,1,9-9A9,9,0,0,1,16,26Z"/>
+    </g>
+    <g id="icon-info" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+        <path d="M17 22L17 14 13 14 13 16 15 16 15 22 12 22 12 24 20 24 20 22 17 22zM16 8a1.5 1.5 0 101.5 1.5A1.5 1.5 0 0016 8z"/>
+        <path d="M16,30A14,14,0,1,1,30,16,14,14,0,0,1,16,30ZM16,4A12,12,0,1,0,28,16,12,12,0,0,0,16,4Z" />
+    </g>
+</svg>

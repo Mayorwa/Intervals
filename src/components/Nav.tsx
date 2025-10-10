@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import IntervalLogo from '@/assets/img/logo.svg'
+import Icon from "@/components/ui/Icon.tsx";
 
 
 const Nav: React.FC = () => {
-    const [navItems, ] = useState(["About", "Intervals⏱️"]);
+    const [navItems, ] = useState([{ name: "About", icon: ""}, { name: "Intervals", icon: "timer"}]);
     return (
         <>
             <div className="fixed mt-4 ml-4">
@@ -12,7 +13,7 @@ const Nav: React.FC = () => {
                     <ul className="nav-items text-center mt-2">
                         {
                             navItems.map((item, i) => (
-                                <li key={i}><a className="hover:underline" href="#">{item}</a></li>
+                                <li key={i} className="flex items-center justify-center"><a className="hover:underline mr-1" href="#">{item.name}</a> {item.icon && <Icon name={item.icon} /> }</li>
                             ))
                         }
                     </ul>

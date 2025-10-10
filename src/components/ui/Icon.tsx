@@ -8,7 +8,7 @@ interface IconProps {
     className?: string;
 }
 
-const Icon: React.FC<IconProps> = ({ name, viewBox = '0 0 24 24', width = '24px', height = '24px', className = '' }) => {
+const Icon: React.FC<IconProps> = ({ name, viewBox = '0 0 32 32', width = '18px', height = '18px', className = '' }) => {
     return (
         <svg width={width} height={height} viewBox={viewBox} className={`icon ${className}`} >
             <use xlinkHref={`/sprite.svg#icon-${name}`} />
