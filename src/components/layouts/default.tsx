@@ -1,17 +1,19 @@
 import React from "react";
 
 // components
-import Nav from "@/components/Nav.tsx";
+import Nav from "@/components/common/AppHeader.tsx";
 // types
-type LayoutProps = { children: React.ReactElement }
+import type { LayoutProps } from "@/types";
 
 const DashboardLayout: React.FC<LayoutProps>  = ({children}) => {
     return (
         <>
-            <Nav />
-            <div className="container flex py-5 h-full">
-                {children}
-            </div>
+            <main className="bg-white">
+                <Nav />
+                <div className="container flex py-5 h-full">
+                    {children}
+                </div>
+            </main>
         </>
     );
 }
