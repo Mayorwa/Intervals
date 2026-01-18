@@ -3,7 +3,7 @@ import IntervalLogo from '@/assets/img/logo.svg'
 import Icon from "@/components/ui/Icon.tsx";
 
 
-const Nav: React.FC = () => {
+const AppHeader: React.FC = () => {
     const [navItems, ] = useState([{ name: "About", icon: ""}, { name: "Intervals", icon: "timer"}]);
     return (
         <>
@@ -23,4 +23,4 @@ const Nav: React.FC = () => {
     )
 }
 
-export default Nav;
+export default AppHeader;
