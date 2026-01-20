@@ -1,6 +1,5 @@
 import React from "react";
 
-// Types for our tactical data
 interface Path {
     type: string;
     svg_d: string;
@@ -102,7 +101,6 @@ const Pitch: React.FC<{ data: TacticalData }> = ({ data }) => {
                     />
                 ))}
 
-                {/* SVG Defs for clipping */}
             </svg>
         </div>
     );
