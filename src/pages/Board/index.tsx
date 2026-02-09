@@ -1,10 +1,10 @@
 import React from "react";
 import Pitch from "@/components/ui/Pitch.tsx";
-import { argentinaSerbia2006 } from "@/data/argentina-serbia-2006";
+import { placeholderGoalData } from "@/data/placeholder-goal-data";
 
 const BoardIndex: React.FC = () => {
     // Use the accurate goal data from the data file
-    const goalData = argentinaSerbia2006;
+    const goalData = placeholderGoalData;
 
     return (
         <>
